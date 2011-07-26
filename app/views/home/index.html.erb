@@ -1,0 +1,15 @@
+<div id="TempsPerParada">
+  <p>Cerca minimalista els temps de pas a una parada.</p>
+  <form action="http://www.tmb.cat/ca/ibus?p_p_id=vull_anar_on_soc_WAR_vull_anar_on_soc5261&amp;p_p_mode=view&amp;p_p_state=exclusive&amp;p_p_col_id=column-1&amp;p_p_col_count=1&amp;p_p_lifecycle=1" method="POST" accept-charset="utf-8">
+  <p>
+    <input type="hidden" name="exec_metodo" value="cercaiBusCodigo" />
+  </p>
+  <p>
+    <%= label_tag 'codi_parada', 'Codi de parada:' %>
+    <input id='codi_parada' type="text" name="ibus-codigo" value="0708"/>
+  </p>
+  <p>
+    <input type="submit" value="Continue" />
+  </p>
+  </form>
+</div>
